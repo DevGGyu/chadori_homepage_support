@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="remote.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <script src="remote.js"></script>
+</head>
+
+<body>
+    <header>
+        <span>원격지원</span>
+        <p>
+            차도리 고객센터(1588-0798)로 연락하여<br>
+            원격지원을 요청하시면 안내해드리겠습니다.
+        </p>
+    </header>
+
+    <div>
+        <ul>
+            <li class="tablinks" onclick="openContent(event, '2005')">2005버전</li>
+            <li class="tablinks" onclick="openContent(event, '2018')">2018버전</li>
+            <li class="tablinks" onclick="openContent(event, 'error')">실행오류</li>
+        </ul>
+    </div>
+    
+    <div id="2005" class="tabcontent">
+        2005버전
+    </div>
+    
+    <div id="2018" class="tabcontent">
+        2018버전
+    </div>
+    
+    <div id="error" class="tabcontent">
+        실행오류
+    </div>
+</body>
+</html>
