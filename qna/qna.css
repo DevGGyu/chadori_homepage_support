@@ -67,7 +67,7 @@ header p {
     flex-shrink: 0;
 }
 
-.question #img {
+.question .image {
     width: 45px;
     height: 24px;
     margin-right: 1.3rem;
