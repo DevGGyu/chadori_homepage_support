@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>공지사항</title>
+    <link rel="stylesheet" href="/common/common.css">
+    <link rel="stylesheet" href="notice.css">
+    <script type="text/javascript" src="notice.js"></script>
+    <script type="text/javascript" src="notice.json"></script>
+    <link type="text/css" href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body class="common_body" onload="addTextInDiv(page1);">
+    <header class="common_header">
+        <span>공지사항</span>
+        <p>
+            차도리의 공지사항을 신속하고,<br> 명확하게 공지드립니다.
+        </p>
+    </header>
+
+    <main class="notice_container">
+        <div class="notice_tag">
+            <ul>
+                <li>No</li>
+                <li>공지내용</li>
+                <li>등록일자</li>
+            </ul>
+        </div>
+        <div class="notice_content"></div>
+    </main>
+    
+    <nav class="notice_page">
+        <a class="notice_paging_link" href="#" onclick="addTextInDiv(page1);changedColor(event);">1</a>
+        <a class="notice_paging_link" href="#" onclick="addTextInDiv(page2);changedColor(event);">2</a>
+    </nav>
+
+</body>
+</html>

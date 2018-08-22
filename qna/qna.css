@@ -1,45 +1,13 @@
-/* body */
-
-body {
-/*    border: 1px solid red;*/
-    font-family: 'Noto Sans', sans-serif;
-    padding-top: 6.25rem;
-    padding-bottom: 6.25rem;
-    text-align: center;
-}
-
-/* header */
-
-header {
-    /*    border: 1px solid blue;*/
-}
-
-header span {
-    font-size: 2.5rem;
-    font-weight: 300;
-    color: #333333;
-    margin: 0px;
-}
-
-header p {
-    font-size: 1rem;
-    font-weight: 300;
-    color: #707070;
-    margin: 0px;
-    margin-top: 1.5rem;
-}
-
 /* content */
 
-.container {
-    margin-right: 7rem;
-    margin-left: 7rem;
+.qna_container {
+    width: 50rem;
     border-top: 1px solid #333333;
     border-bottom: 1px solid #333333;
-    margin-top: 8.5rem;
+    margin: 8.5rem auto;
 }
 
-.question {
+.qna_question {
     height: 4rem;
     background-color: white;
     display: flex;
@@ -49,7 +17,7 @@ header p {
     cursor: pointer;
 }
 
-.answer {
+.qna_answer {
     background-color: #f7f7f7;
     display: none;
     padding: 2.5rem 3rem;
@@ -57,29 +25,29 @@ header p {
     text-align: left;
 }
 
-.answer span {
+.qna_answer span {
     font-size: 1.25rem;
     color: #333333;
 }
 
-#q, .image {
+#qna_q, .qna_image {
     flex-basis: 4rem;
     flex-shrink: 0;
 }
 
-.question .image {
+.qna_question .qna_image {
     width: 45px;
     height: 24px;
     margin-right: 1.3rem;
 }
 
-.question #q {
+.qna_question #qna_q {
     font-size: 1.5rem;
     color: #333333;
     font-weight: 200;
 }
 
-.question #context {
+.qna_question #qna_context {
     flex-basis: 100%;
     font-size: 1.25rem;
     color: #333333;

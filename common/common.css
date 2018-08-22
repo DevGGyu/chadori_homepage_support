@@ -1,0 +1,26 @@
+/* body */
+.common_body {
+    font-family: 'Noto Sans', sans-serif;
+    padding-top: 6.25rem;
+    text-align: center;
+}
+
+/* header */
+.common_header {
+/*    border: 1px solid blue;*/
+}
+
+.common_header span {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #333333;
+    margin: 0px;
+}
+
+.common_header p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #707070;
+    margin: 0px;
+    margin-top: 1.5rem;
+}

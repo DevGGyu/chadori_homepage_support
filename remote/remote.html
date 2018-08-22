@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="/common/common.css">
     <link rel="stylesheet" href="remote.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="remote.js"></script>
 </head>
 
-<body>
-    <header>
+<body class="common_body">
+    <header class="common_header">
         <span>원격지원</span>
         <p>
             차도리 고객센터(1588-0798)로 연락하여<br>
@@ -19,21 +20,21 @@
 
     <div>
         <ul>
-            <li class="tablinks" onclick="openContent(event, '2005')">2005버전</li>
-            <li class="tablinks" onclick="openContent(event, '2018')">2018버전</li>
-            <li class="tablinks" onclick="openContent(event, 'error')">실행오류</li>
+            <li class="remote_tab_links" onclick="openContent(event, '2005')">2005버전</li>
+            <li class="remote_tab_links" onclick="openContent(event, '2018')">2018버전</li>
+            <li class="remote_tab_links" onclick="openContent(event, 'error')">실행오류</li>
         </ul>
     </div>
     
-    <div id="2005" class="tabcontent">
+    <div id="2005" class="remote_tab_content">
         2005버전
     </div>
     
-    <div id="2018" class="tabcontent">
+    <div id="2018" class="remote_tab_content">
         2018버전
     </div>
     
-    <div id="error" class="tabcontent">
+    <div id="error" class="remote_tab_content">
         실행오류
     </div>
 </body>

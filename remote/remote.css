@@ -1,31 +1,3 @@
-/* body */
-body {
-/*    border: 1px solid red;*/
-    font-family: 'Noto Sans', sans-serif;
-    padding-top: 100px;
-    text-align: center;
-}
-
-/* header */
-header {
-/*    border: 1px solid blue;*/
-}
-
-header span {
-    font-size: 2.5rem;
-    font-weight: 300;
-    color: #333333;
-    margin: 0px;
-}
-
-header p {
-    font-size: 1rem;
-    font-weight: 300;
-    color: #707070;
-    margin: 0px;
-    margin-top: 1.5rem;
-}
-
 /* content */
 div ul {
     margin: 0;
@@ -38,7 +10,7 @@ div ul {
     border-right: 0px;
 }
 
-div ul li {
+div ul .remote_tab_links {
     list-style: none;
     font-size: 1.5rem;
     padding: 0.6rem 3rem 0.6rem 3rem;
@@ -51,6 +23,6 @@ div ul li.active {
     background-color: #084aaa;
 }
 
-.tabcontent {
+.remote_tab_content {
     display: none;
 }
