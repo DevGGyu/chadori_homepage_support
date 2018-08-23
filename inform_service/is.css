@@ -1,0 +1,62 @@
+.common_header:after {
+    display: block;
+    border: 1px solid #707070;
+    width: 40rem;
+    content: "";
+    margin: 2.7rem auto 5rem;
+}
+
+.is_main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.is_main div:nth-child(2), div:nth-child(4) {
+    padding-top: 2rem;
+    background-color: #f7f7f7;
+}
+
+.is_main div:nth-child(3) {
+    padding-top: 4rem;
+}
+
+.is_main div .is_title {
+    font-size: 1.8rem;
+    display: block;
+}
+
+.is_main div .is_context {
+    font-size: 1.2rem;
+    color: #707070;
+    line-height: 1.5;
+    display: block;
+    padding-top: 1.5rem;
+}
+
+.is_main div span {
+    text-align: left;
+    width: 40rem;
+    margin: auto;
+}
+
+.is_main div {
+    display: flex;
+    flex-direction: column;
+}
+
+.is_main div:nth-child(1) .is_context {
+    padding-bottom: 4rem;
+}
+
+.is_main div:nth-child(2) .is_context {
+    padding-bottom: 2rem;
+}
+
+.is_main div:nth-child(3) .is_context {
+    padding-bottom: 4rem;
+}
+
+.is_main div:nth-child(4) .is_context {
+    padding-bottom: 2rem;
+}

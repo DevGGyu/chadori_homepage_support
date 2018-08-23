@@ -1,18 +1,18 @@
 /* body */
 .common_body {
     font-family: 'Noto Sans', sans-serif;
-    padding-top: 6.25rem;
     text-align: center;
 }
 
 /* header */
 .common_header {
 /*    border: 1px solid blue;*/
+    margin-top: 6.25rem;
 }
 
 .common_header span {
-    font-size: 2.5rem;
-    font-weight: 300;
+    font-size: 3rem;
+    font-weight: 400;
     color: #333333;
     margin: 0px;
 }
@@ -20,7 +20,8 @@
 .common_header p {
     font-size: 1rem;
     font-weight: 300;
-    color: #707070;
+    color: #666666;
     margin: 0px;
-    margin-top: 1.5rem;
+    margin-top: 3.5rem;
+    line-height: 1.5;
 }

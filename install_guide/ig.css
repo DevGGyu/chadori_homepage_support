@@ -1,0 +1,54 @@
+.common_header:after {
+    display: block;
+    border: 1px solid #707070;
+    width: 40rem;
+    content: "";
+    margin: 2.7rem auto 5rem;
+}
+
+.ig_main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.ig_main div:nth-child(2) {
+    padding-top: 2rem;
+    background-color: rgba(234, 234, 234, 0.5);
+}
+
+.ig_main div:nth-child(3) {
+    padding-top: 2.5rem;
+}
+
+.ig_main div .ig_title {
+    font-size: 1.5rem;
+    display: block;
+}
+
+.ig_main div .ig_context {
+    font-size: 0.9rem;
+    color: #707070;
+    line-height: 1.5;
+    display: block;
+    padding-top: 2.5rem;
+}
+
+.ig_main div span {
+    text-align: left;
+    width: 40rem;
+    margin: auto;
+}
+
+.ig_main div {
+    display: flex;
+    flex-direction: column;
+}
+
+.ig_main div:nth-child(1) .ig_context {
+    padding-bottom: 2.3rem;
+}
+
+.ig_main div:nth-child(2) .ig_context {
+    padding-bottom: 4rem;
+}

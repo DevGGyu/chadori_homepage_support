@@ -4,7 +4,7 @@
     width: 50rem;
     border-top: 1px solid #333333;
     border-bottom: 1px solid #333333;
-    margin: 8.5rem auto;
+    margin: 4.5rem auto;
 }
 
 .notice_tag {
@@ -85,6 +85,7 @@
     border-bottom: 1px solid #cccccc;
     text-align: left;
     font-size: 0.9rem;
+    line-height: 1.5;
 }
 
 .notice_page {
