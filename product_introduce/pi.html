@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>제품소개</title>
+    <link rel="stylesheet" href="/common/common.css">
+    <link rel="stylesheet" href="pi.css">
+    <script type="text/javascript" src="pi.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script>
+        $(function() {
+            $("ul.pi_ul li").click(function() {
+                $("ul.pi_ul li").removeClass("active").css("color", "#333333");
+                $(this).addClass("active").css("color", "white");
+                var activeTab = $(this).attr("rel");
+                $("#" + activeTab).fadeIn()
+            });
+        });
+    </script>
+</head>
+
+<body class="common_body" onload="onLoadHtml(2005)">
+    <header class="common_header">
+        <span>제품소개</span>
+        <p>
+            차도리는 4가지 버전으로 제공되고 있습니다.
+        </p>
+    </header>
+
+    <nav class="pi_nav">
+        <ul class="pi_ul">
+            <li class="pi_li active" rel="tab1" onclick="onLoadHtml(2005)">차도리 2005버전</li>
+            <li class="pi_li" rel="tab2" onclick="onLoadHtml(2007)">차도리 2007버전</li>
+            <li class="pi_li" rel="tab3" onclick="onLoadHtml(2018)">차도리 2018버전</li>
+            <li class="pi_li" rel="tab4" onclick="onLoadHtml('custom')">커스텀버전</li>
+        </ul>
+    </nav>
+
+    <main class="pi_main"></main>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.common_header:after {
+    width: 35rem;
+    content: "";
+    border: 1px solid #707070;
+    display: block;
+    margin: auto;
+    margin-top: 2.6rem;
+}
+
+#img_kakao {
+    width: 38.56rem;
+    height: 48.28rem;
+    margin: 4.5rem auto;
+    display: block;
+}
+
+div#kakao_context {
+    width: 35rem;
+    margin: auto;
+}
+
+div#kakao_context span {
+    color: #707070;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}

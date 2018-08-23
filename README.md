@@ -6,6 +6,9 @@
 ### notice : 공지사항
 ### install_guide : 사용설치 문의
 ### inform_service : 주요서비스
+### product_introduce : 제품소개
+### kakao_plus : 카카오플러스 친구
+### history : 히스토리
 
 ## 리소스 폴더
 ### img : 이미지 폴더
