@@ -8,8 +8,7 @@
 
 .remote_before_install,
 .remote_error {
-    width: 672.5px;
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     justify-content: center;
 }
@@ -34,7 +33,6 @@
 
 .remote_li {
     display: inline-flex;
-    flex-direction: row;
 }
 
 .remote_title {
@@ -56,22 +54,12 @@
     border-radius: 100%;
     align-items: center;
     justify-content: center;
-    margin-right: 14.5px;
-    margin-bottom: 80.5px;
 }
-
-/*
-.vertical_line {
-    height: 50px;
-    width: 0px;
-    border: 1px solid black;
-}
-*/
 
 .remote_sub_title {
     font-size: 17.5px;
     display: block;
-    margin-bottom: 5.5px;
+    margin-bottom: 7.5px;
     margin-top: 8px;
 }
 
@@ -80,4 +68,17 @@
     color: #707070;
     display: inline-flex;
     line-height: 1.5;
+}
+
+.remote_line_rec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 14.5px;
+}
+
+.remote_line {
+    height: 80.5px;
+    width: 0px;
+    border: 0.5px solid rgba(216, 216, 216, 0.5);
 }
