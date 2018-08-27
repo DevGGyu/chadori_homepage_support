@@ -1,0 +1,50 @@
+.common_header:after {
+    display: block;
+    border: 1px solid #707070;
+    width: 586.5px;
+    content: "";
+    margin: 43.25px auto 79.75px;
+}
+
+.is_main > div:nth-child(2), div:nth-child(4) {
+    padding: 32px;
+    background-color: #f7f7f7;
+}
+
+.is_main div:nth-child(3) {
+    padding-top: 66.5px;
+}
+
+.is_title {
+    font-size: 30px;
+}
+
+.is_context {
+    font-size: 17.5px;
+    color: #707070;
+    line-height: 1.5;
+    padding-top: 25px;
+}
+
+.is_main > div > span {
+    text-align: left;
+    width: 586.5px;
+    margin: auto;
+}
+
+.is_main > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.is_main div:nth-child(1) .is_context {
+    padding-bottom: 68.5px;
+}
+
+.is_main div:nth-child(3) .is_context {
+    padding-bottom: 81.5px;
+}
+
+.is_context > p {
+    margin-top: 25px;
+}

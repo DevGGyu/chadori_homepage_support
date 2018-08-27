@@ -1,0 +1,83 @@
+.common_header:after {
+    content: "";
+    border-bottom: 1px solid #707070;
+    display: block;
+    width: 627.5px;
+    margin: 38.25px auto 0;
+}
+
+.remote_before_install,
+.remote_error {
+    width: 672.5px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.remote_before_install {
+    padding-top: 87.25px;
+    padding-bottom: 39px;
+}
+
+.remote_error {
+    background-color: rgba(234, 234, 234, 0.5);
+    padding-top: 63.5px;
+    padding-bottom: 63.45px;
+}
+
+.remote_ul {
+    text-align: left;
+    margin-left: 66px;
+    display: flex;
+    flex-direction: column;
+}
+
+.remote_li {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.remote_title {
+    font-size: 30px;
+    color: #333333;
+    text-align: left;
+    line-height: 1.5;
+    flex-basis: 212px;
+    flex-shrink: 0;
+}
+
+.remote_number {
+    font-size: 15px;
+    color: #333333;
+    background-color: #d8d8d8;
+    display: inline-flex;
+    width: 31.5px;
+    height: 31.5px;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-right: 14.5px;
+    margin-bottom: 80.5px;
+}
+
+/*
+.vertical_line {
+    height: 50px;
+    width: 0px;
+    border: 1px solid black;
+}
+*/
+
+.remote_sub_title {
+    font-size: 17.5px;
+    display: block;
+    margin-bottom: 5.5px;
+    margin-top: 8px;
+}
+
+.remote_context {
+    font-size: 15px;
+    color: #707070;
+    display: inline-flex;
+    line-height: 1.5;
+}

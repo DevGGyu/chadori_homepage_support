@@ -15,7 +15,7 @@ function addTextInDiv(key) {
         text +=         key[i]["title"];
         text +=     '</span>';
         text +=     '<span id="notice_submit_date">' + key[i]["date"] + '</span>'
-        text +=     '<img class="notice_image" src="../img/down.svg" id="notice_img' + i + '"/>';
+        text +=     '<img class="notice_image" alt="" id="notice_img' + i + '" src="../img/down.svg" />';
         text += '</div>';
         text += '<div class="notice_context" id="' + i +'">';
         text +=     '<span>';
