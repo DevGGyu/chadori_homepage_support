@@ -28,7 +28,7 @@
 }
 
 .qna_answer span {
-    font-size: 20px;
+    font-size: 18px;
     color: #333333;
 }
 
@@ -51,7 +51,7 @@
 
 .qna_question #qna_context {
     flex-basis: 100%;
-    font-size: 20px;
+    font-size: 16px;
     color: #333333;
     text-align: left;
     text-overflow: ellipsis;

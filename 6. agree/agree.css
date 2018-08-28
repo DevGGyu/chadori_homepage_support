@@ -1,0 +1,62 @@
+/* container */
+
+.common_body {
+    padding: 20px 13px 100px;
+    text-align: left;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.agree_section > span,
+.agree_section > ul {
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* title */
+
+#agree_title {
+    font-size: 22.5px;
+    color: #00275f;
+    margin-bottom: 20px;
+}
+
+.sub_title {
+    font-size: 18px;
+    color: #333;
+    font-weight: 700;
+    margin: 15 auto;
+}
+
+/* 목차 */
+
+.agree_list,
+#agree_leader_info {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.agree_list > li > a {
+    color: #00419d;
+    text-decoration: none;
+}
+
+/* agree_3 : 개인정보처리방침 */
+.agree_marker {
+    color: blue;
+    font-weight: 700;
+}
+
+/* agree_5 : 데이터 보안 서약 */
+.agree_center {
+    text-align: center;
+}
+
+.agree_main {
+    width: 700px;
+    margin: auto;
+    margin-top: 30px;
+}
