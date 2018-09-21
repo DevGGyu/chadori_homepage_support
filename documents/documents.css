@@ -163,6 +163,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 100;
 }
 
 .doc_step_one_li:nth-child(2):hover {
