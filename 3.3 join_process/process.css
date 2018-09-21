@@ -40,7 +40,7 @@
     background: white;
     width: 94.35px;
     height: 94.35px;
-    border: 1px solid #999999;
+    border: 1px solid #ccc;
     border-radius: 100%;
     display: flex;
     justify-content: center;
@@ -75,10 +75,11 @@
 }
 
 .p_table, .p_thead_tr, .p_tbody_tr, td {
-    border: 1px solid #cccccc;
+/*    border: 1px solid #ccc;*/
 }
 
 .p_table {
+    border: 1px solid #ccc;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -102,8 +103,13 @@
 }
 
 .p_tbody_tr {
+    border-top: 1px solid #ccc;
     width: 50%;
     height: 130px;
+}
+
+.p_thead_tr:nth-child(1), .p_tbody_tr:nth-child(1) {
+    border-right: 1px solid #ccc;
 }
 
 .p_th {
@@ -122,9 +128,9 @@
 }
 
 .p_th > span:nth-child(1) {
-    font-size: 18px;
+    font-size: 20px;
     color: #333333;
-    margin: 21px;
+    margin: 19px;
 }
 
 .p_th > span:nth-child(2) {
